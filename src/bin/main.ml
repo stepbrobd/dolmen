@@ -146,7 +146,7 @@ let list_extensions st =
 (* ********* *)
 
 let () =
-  let version = "0.10" in
+  let version = "0.11" in
   let exits =
     List.map (fun code ->
         let retcode, doc = Dolmen_loop.Code.descr code in
